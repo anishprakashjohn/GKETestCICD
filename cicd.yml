@@ -10,7 +10,7 @@ steps:
   - 'set'
   - 'image'
   - 'deployment/my-deployment'
-  - 'my-container=gcr.io/kubelearning-208105/testcicd:$REVISION_ID'
+  - 'testcicd=gcr.io/kubelearning-208105/testcicd:$REVISION_ID'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=australia-southeast1-a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=testcicd'
